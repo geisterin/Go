@@ -6,7 +6,7 @@ func main() {
 	const hoursPerDay = 24
 
 	var days = 28
-	var distance = 56000000000S0 // km
+	var distance = 56000000 // km
 
 	fmt.Println(distance/(days*hoursPerDay), "км/ч")
 }
